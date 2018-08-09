@@ -1,37 +1,28 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using BLKBOX_MVP.Models;
 using Microsoft.AspNetCore.Mvc;
-using BLKBOX_MVP.Models;
 
 namespace BLKBOX_MVP.Controllers
 {
     public class HomeController : Controller
     {
-        public IActionResult Index()
+        public IActionResult BeginWorkout()
         {
             return View();
         }
 
-        public IActionResult About()
+        public IActionResult Workouts()
         {
-            ViewData["Message"] = "Your application description page.";
-
-            return View();
+            return View(new WorkoutsViewModel());
         }
 
-        public IActionResult Contact()
+        public IActionResult Holding()
         {
-            ViewData["Message"] = "Your contact page.";
-
             return View();
         }
 
         public IActionResult Error()
         {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+            return View();
         }
     }
 }

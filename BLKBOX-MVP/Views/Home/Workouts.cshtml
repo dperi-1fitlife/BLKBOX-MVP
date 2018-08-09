@@ -1,0 +1,15 @@
+﻿@using BLKBOX_MVP.Data
+@model BLKBOX_MVP.Models.WorkoutsViewModel
+@{
+    ViewData["Title"] = "Home Page";
+}
+<div class="row">
+    <h2>Workouts</h2>
+
+    @foreach(Workout workout in Model.Workouts)
+    {
+        <a href="@Url.Action("BeginWorkout", "Home")">
+            <p>@workout.WorkoutName</p>
+        </a>
+    }
+</div>
