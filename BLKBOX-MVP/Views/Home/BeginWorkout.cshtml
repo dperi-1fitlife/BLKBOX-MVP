@@ -1,7 +1,9 @@
 ﻿@using BLKBOX_MVP.Data
+@model BLKBOX_MVP.Models.BeginWorkoutViewModel
 @{
     ViewData["Title"] = "Home Page";
 }
 <div class="row">
-    <h2>Workouts Start Page</h2>
+    <p>@Model.Workout.WorkoutName</p>
+    <p>@Model.Workout.WorkoutDescription</p>
 </div>

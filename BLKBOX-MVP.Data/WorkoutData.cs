@@ -49,72 +49,96 @@ namespace BLKBOX_MVP.Data
                     {
                         new SetDetail
                         {
+                            WorkoutSection = WorkoutSection.Main,
+                            SectionOrderID = 1,
                             ExerciseName = "Jumping Jacks",
                             ExerciseDurationInSecs = 30,
                             RestDurationInSecs = 10
                         },
                         new SetDetail
                         {
+                            WorkoutSection = WorkoutSection.Main,
+                            SectionOrderID = 2,
                             ExerciseName = "Squat Hold",
                             ExerciseDurationInSecs = 30,
                             RestDurationInSecs = 10
                         },
                         new SetDetail
                         {
+                            WorkoutSection = WorkoutSection.Main,
+                            SectionOrderID = 3,
                             ExerciseName = "Push-ups",
                             ExerciseDurationInSecs = 30,
                             RestDurationInSecs = 10
                         },
                         new SetDetail
                         {
+                            WorkoutSection = WorkoutSection.Main,
+                            SectionOrderID = 4,
                             ExerciseName = "Crunches",
                             ExerciseDurationInSecs = 30,
                             RestDurationInSecs = 10
                         },
                         new SetDetail
                         {
+                            WorkoutSection = WorkoutSection.Main,
+                            SectionOrderID = 5,
                             ExerciseName = "Step-ups",
                             ExerciseDurationInSecs = 30,
                             RestDurationInSecs = 10
                         },
                         new SetDetail
                         {
+                            WorkoutSection = WorkoutSection.Main,
+                            SectionOrderID = 6,
                             ExerciseName = "Squats",
                             ExerciseDurationInSecs = 30,
                             RestDurationInSecs = 10
                         },
                         new SetDetail
                         {
+                            WorkoutSection = WorkoutSection.Main,
+                            SectionOrderID = 7,
                             ExerciseName = "Push-ups",
                             ExerciseDurationInSecs = 30,
                             RestDurationInSecs = 10
                         },
                         new SetDetail
                         {
+                            WorkoutSection = WorkoutSection.Main,
+                            SectionOrderID = 8,
                             ExerciseName = "Plank",
                             ExerciseDurationInSecs = 30,
                             RestDurationInSecs = 10
                         },
                         new SetDetail
                         {
+                            WorkoutSection = WorkoutSection.Main,
+                            SectionOrderID = 9,
                             ExerciseName = "Burpees",
                             ExerciseDurationInSecs = 30,
                             RestDurationInSecs = 10
                         },
                         new SetDetail
                         {
+                            WorkoutSection = WorkoutSection.Main,
+                            SectionOrderID = 10,
                             ExerciseName = "Lunges",
                             ExerciseDurationInSecs = 30,
                             RestDurationInSecs = 10
                         },
                         new SetDetail
                         {
+                            WorkoutSection = WorkoutSection.Main,
+                            SectionOrderID = 11,
                             ExerciseName = "Side Plank(L)",
                             ExerciseDurationInSecs = 30,
                             RestDurationInSecs = 10
                         },
                         new SetDetail
                         {
+                            WorkoutSection = WorkoutSection.Main,
+                            SectionOrderID = 12,
                             ExerciseName = "Side Plank(R)",
                             ExerciseDurationInSecs = 30,
                             RestDurationInSecs = 0
